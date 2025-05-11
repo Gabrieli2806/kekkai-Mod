@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "kekkai",
+	"version": "1.0.1",
+	"name": "Kekkai Mod",
+	"description": "Adds Shimenawa and Ofuda blocks to repel hostile mobs in a 100-block radius.",
+	"authors": ["Gabrieli2806"],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.g2806.kekkai.Kekkai"],
+		"client": ["com.g2806.kekkai.KekkaiClient"],
+		"modmenu": [
+			"com.g2806.kekkai.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "1.21.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

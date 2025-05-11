@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kekkai:block/shimenawa", "y": 180 },
+        "facing=south": { "model": "kekkai:block/shimenawa" },
+        "facing=west":  { "model": "kekkai:block/shimenawa", "y": 90 },
+        "facing=east":  { "model": "kekkai:block/shimenawa", "y": 270 }
+    }
+}

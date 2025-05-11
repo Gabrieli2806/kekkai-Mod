@@ -1,0 +1,19 @@
+{
+    "parent": "block/block",
+    "elements": [
+        {
+            "from": [0, 0, 15],
+            "to": [16, 16, 16],
+            "faces": {
+                "north": {
+                    "texture": "#texture",
+                    "cullface": "north"
+                }
+            }
+        }
+    ],
+    "textures": {
+        "texture": "kekkai:block/shimenawa",
+        "particle": "kekkai:block/ofuda"
+    }
+}
